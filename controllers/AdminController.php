@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Description of AccountController
+ *
+ * @author smero
+ */
+
 class AdminController
 {
     public function actionForm():bool

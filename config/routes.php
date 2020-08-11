@@ -1,10 +1,12 @@
 <?php
 
     return array(
-        // 'news/([0-9]+)' => 'news/view',
-        'news/([a-z]+)/([0-9]+)' => 'news/view/$1/$2',
+        'news/([0-9]+)' => 'news/view/$1',
         'news' => 'news/index',
-
-
-        'admin' => 'admin/form'
+        
+        'account/login'=> 'account/login',
+        'account/register'=> 'account/register',
+        
+        'admin' => 'admin/form',
+        
     );
